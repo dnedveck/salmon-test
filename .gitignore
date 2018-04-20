@@ -2,4 +2,14 @@
 bin/*
 !*.sh
 
+# ignoring the refs folder, except for scripts
+refs/*
+!*.sh
 
+# ignoring data folder, except for scripts
+data/*
+!*.sh
+!data/quants/*
+
+# make sure I don't commit any gzips
+*.gz
