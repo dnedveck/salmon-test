@@ -1,0 +1,5 @@
+# ignoring the bin folder, except for install scripts
+bin/*
+!*.sh
+
+
